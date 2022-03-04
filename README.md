@@ -14,8 +14,9 @@ Credit for the original package is due to [rdubrock](https://github.com/rdubrock
 
 ### Installation
 
-    npm install @liorpo/react-star-wars-crawl
-
+```bash
+npm install @liorpo/react-star-wars-crawl
+```
 ### Usage
 
 Simply import the Crawl component. You can use the `title`, `subTitle`, and `text` props to achieve the default Star Wars intro.
