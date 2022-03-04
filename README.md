@@ -1,5 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/liorp/react-star-wars-crawl)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-star-wars-crawl)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@liorpo/react-star-wars-crawl)
 [![react-star-wars-crawl example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-star-wars-crawl-example-5h4rkh?fontsize=14&hidenavigation=1&theme=dark)
 
 # react-star-wars-crawl
