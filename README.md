@@ -4,7 +4,7 @@
 
 # react-star-wars-crawl
 
-!(image)[https://i.imgur.com/ie6IQR2.mp4]
+<img src="https://i.imgur.com/eh1mXvG.gif"/>
 
 ### A fully composable React component that reproduces the Star Wars opening crawl.
 
