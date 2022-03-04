@@ -4,6 +4,8 @@
 
 # react-star-wars-crawl
 
+!(image)[https://i.imgur.com/ie6IQR2.mp4]
+
 ### A fully composable React component that reproduces the Star Wars opening crawl.
 
 Credit for the default styling and animation belongs to Geoff Graham, outlined in his excellent article [here](https://css-tricks.com/snippets/css/star-wars-crawl-text/)
