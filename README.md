@@ -1,8 +1,14 @@
+![GitHub](https://img.shields.io/github/license/liorp/react-star-wars-crawl)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-star-wars-crawl)
+[![react-star-wars-crawl example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-docs-hotkeys-hook-example-87ifc?fontsize=14&hidenavigation=1&theme=dark)
+
 # react-star-wars-crawl
 
 ### A fully composable React component that reproduces the Star Wars opening crawl.
 
 Credit for the default styling and animation belongs to Geoff Graham, outlined in his excellent article [here](https://css-tricks.com/snippets/css/star-wars-crawl-text/)
+
+Credit for the original package is due to [rdubrock](https://github.com/rdubrock/react-star-wars-crawl/)
 
 ### Installation
 
@@ -14,9 +20,6 @@ Simply import the Crawl component. You can use the `title`, `subTitle`, and `tex
 
     import React from 'react'
     import Crawl from 'react-star-wars-crawl'
-
-    // Import the necessary styles, or include them another way with your build process
-    import 'react-star-wars-crawl/lib/index.css'
 
     const MyCrawlComponent = () => (
         <Crawl
@@ -36,13 +39,13 @@ You can also pass anything you like as a child.
 
 All default styles can be overriden. A full list of props:
 
-- containerStyles 
+- containerStyles
 - textContainerStyles
-- crawlStyles 
-- titleStyles 
+- crawlStyles
+- titleStyles
 - subTitleStyles
 - textStyles
 - title
 - subTitle
 - text
-
+- speed
