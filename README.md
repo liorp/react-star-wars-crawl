@@ -4,7 +4,7 @@
 
 # react-star-wars-crawl
 
-<img src="https://i.imgur.com/eh1mXvG.gif"/>
+![react-star-wars-crawl-example](https://user-images.githubusercontent.com/4294489/156758816-a9e3c49e-0806-4670-a9ac-ba0b0aea1c46.gif)
 
 ### A fully composable React component that reproduces the Star Wars opening crawl.
 
@@ -20,22 +20,25 @@ Credit for the original package is due to [rdubrock](https://github.com/rdubrock
 
 Simply import the Crawl component. You can use the `title`, `subTitle`, and `text` props to achieve the default Star Wars intro.
 
-    import React from 'react'
-    import Crawl from 'react-star-wars-crawl'
+```js
+import React from 'react'
+import Crawl from 'react-star-wars-crawl'
 
-    const MyCrawlComponent = () => (
-        <Crawl
-          title="Episode IV"
-          subTitle="A New Hope"
-          text="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet. Pursued by the Empire’s sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy…"
-        />
-    )
+const MyCrawlComponent = () => (
+    <Crawl
+      title="Episode IV"
+      subTitle="A New Hope"
+      text="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet. Pursued by the Empire’s sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy…"
+    />
+)
+```
 
 You can also pass anything you like as a child.
-
-    <Crawl>
-      <div>Anything at all</div>
-    </Crawl>
+```js
+<Crawl>
+  <div>Anything at all</div>
+</Crawl>
+```
 
 ### Available props
 
