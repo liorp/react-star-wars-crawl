@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-star-wars-crawl",
+  "name": "@liorpollak/react-star-wars-crawl",
   "author": "Lior Pollak",
   "module": "dist/react-star-wars-crawl.esm.js",
   "size-limit": [
